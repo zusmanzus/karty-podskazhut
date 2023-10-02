@@ -57,3 +57,28 @@ figure {
   margin: 7% 0 2.5%;
   font-size: 30px;
 };
+
+.content__text-block {
+  font-style: 18px;
+}
+
+.content__text-block .content__paragraph:not(:last-of-type) {
+  margin-block-end: 1.5em; /* нижние отступы у всех параграфов, кроме последних */
+}
+
+.content__text-block a {
+  color: inherit;
+}
+
+.content__blockquote {
+  margin: 0 auto 1.5em;
+  inline-size: 75%;
+  font-style: italic;
+  line-height: 2;
+}
+
+.contnet__list {
+  padding: 0 0 0 40px;
+  list-style: none;
+}
+
