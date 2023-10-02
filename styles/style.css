@@ -6,6 +6,12 @@
   --accent-color: #ffab5b;
 }
 
+.theme_dark {
+  --bg-color: #171717;
+  --text-color: #b3b3b3;
+  --accent-color: transparent;
+}
+
 *,
 *::before,
 *::after {
@@ -239,4 +245,20 @@ button:disabled {
 
 .footer__copyright {
   font-size: 18px;
+}
+
+.theme_dark .colored-text::after {
+  background-image: url(../images/pattern.svg);
+}
+
+.theme_dark .header__theme-button_is-active::after {
+  background-image: url(../images/pattern.svg);
+}
+
+.theme_dark .content__text-block_type_first-lettered .content__paragraph:first-of-type::first-letter {
+  border: 1px solid currentColor;
+}
+
+.theme_dark .content__list li::before {
+  background-image: url(../images/marker-dark.svg);
 }
