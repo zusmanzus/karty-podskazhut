@@ -36,3 +36,24 @@ figure {
   background-color: var(--bg-color, #f3efec);
   color: var(--text-color);
 }
+
+.heading{
+  font-family: var(--accent-font, serif);
+  font-weight: 600;
+  line-height: 0.9;
+  text-align: center;
+}
+
+.content-section {
+  padding: 0 5vi; /* внутренний отступ справа и слева */
+}
+
+.header__title {
+  font-size: clamp(3.75rem, 2.5rem + 5.5556vw, 7.5rem);  /* адаптивный размер шрифта для разных экранов */
+  margin-block-end: 40px;
+}
+
+.content__title {
+  margin: 7% 0 2.5%;
+  font-size: 30px;
+};
