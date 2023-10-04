@@ -129,7 +129,7 @@ button:disabled {
 }
 
 .content__text-block {
-  font-style: 18px;
+  font-size: 18px;
 }
 
 .content__text-block .content__paragraph:not(:last-of-type) {
@@ -179,7 +179,7 @@ button:disabled {
   margin-inline-end: 1px;
   padding: 0 4px;
   font-weight: 700;
-  font-style: 30px;
+  font-size: 30px;
   background-color: var(--accent-color);
 }
 
